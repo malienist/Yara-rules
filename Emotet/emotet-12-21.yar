@@ -9,7 +9,7 @@ info = "Generated from information extracted from the malware sample by manual a
 rule emotetDec21 {
 
   strings: 
-    $1 = { 4e	9e	9c	6b	0a	ff	f2	38	0a	ff	f2	38	??	ff	f2	38	67	a2	f1	39	07	ff	f2	??	??	??	f7	39	99	ff	f2	38	67	a2	f6	39	17	ff	f2	38	58	97	f7	39	4e	ff	f2	38	58	97	f6	39	2a	ff	f2	38	??	??	??	39	1d	ff	f2	38	67	a2	f4	39 }
+    $1 = { 4e 9e 9c	6b	0a	ff	f2	38	0a	ff	f2	38	??	ff	f2	38	67	a2	f1	39	07	ff	f2	??	??	??	f7	39	99	ff	f2	38	67	a2	f6	39	17	ff	f2	38	58	97	f7	39	4e	ff	f2	38	58	97	f6	39	2a	ff	f2	38	??	??	??	39	1d	ff	f2	38	67	a2	f4	39 }
     $2 = { ??	45	00	00	4c	01	05	00	57	4f	97	61	00	00	00	00 }
     $3 = { ??	39	34	39	3c	39	44	39	4c	39	54	39	5c	39	64	39 }
     $4 = { 48	37	50	37	58	37	60	37	68	37	70	37	78	37	80	37 }
