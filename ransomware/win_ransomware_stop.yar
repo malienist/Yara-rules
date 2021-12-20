@@ -21,6 +21,6 @@ rule stopStatic {
     $str11 = { 74	5f	62	6c	64	5c	73	65	??	66	5f	78	38	36	5c	63 }
     $str12 = { 72	??	5c	73	72	63	5c	6f	6e	65	78	??	74	2e	63	?? }
    condition:
-    filesize < 1.55MB and 
+     
     all of them
 }
